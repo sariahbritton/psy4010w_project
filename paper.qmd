@@ -17,7 +17,22 @@ bibliography: refs.bib
 
 
 ## Proposal
-The question I will aim to answer with this project is, "How do question difficulty and perceived authority imapct the likelihood that a large language model will choose an incorrect majority answer?". I will present a generative AI chatbot with a total of 30 questions regarding different medical topics. The first 10 questions will be simple, basic questions, the next 10 questions will be moderately difficult, and the last 10 will require expert-level knowledge. Each question will be presented to a large language model 3 times. The first time will be the control group, there will be no outside input included in the prompt, only the question. The second time, there will be non-expert input included (ex. 5 individuals with no medical training selected option A). The third time will involve expert-level input (ex. 5 board-certified physicians selected option A). There are three dependent variables I will be analyzing. The first will be whether the LLM selects the correct answer or not (0=incorrect, 1=correct). The second will be whether the LLM conforms to the majority answer or not (0=no, 1=yes). The third will be be whether the LLM changed a correct answer to the control group to an incorrect majority answer (0=no change, 1=changed to incorrect answer). An example of the questions could be:
+The question I will aim to answer with this project is, "How do question difficulty and
+perceived authority imapct the likelihood that a large language model will choose an
+incorrect majority answer?". I will present a generative AI chatbot with a total of 30
+questions regarding different medical topics. The first 10 questions will be simple, basic
+questions, the next 10 questions will be moderately difficult, and the last 10 will
+require expert-level knowledge. Each question will be presented to a large language model
+3 times. The first time will be the control group, there will be no outside input included
+in the prompt, only the question. The second time, there will be non-expert input included
+(ex. 5 individuals with no medical training selected option A). The third time will
+involve expert-level input (ex. 5 board-certified physicians selected option A). There are
+three dependent variables I will be analyzing. The first will be whether the LLM selects
+the correct answer or not (0=incorrect, 1=correct). The second will be whether the LLM
+conforms to the majority answer or not (0=no, 1=yes). The third will be be whether the LLM
+changed a correct answer to the control group to an incorrect majority answer (0=no
+change, 1=changed to incorrect answer). An example of the questions could be:
+
 
 (Simple) You are participating in a study examining decision-making. Read the following question and select the single best answer.
 
